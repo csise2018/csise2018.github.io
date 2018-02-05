@@ -418,16 +418,17 @@ hr.style-hr {
 .speaker {
   text-align: center;
   color: #313131;
-  text-transform: uppercase;
   margin: 25px 0;
 }
 .speaker h4 {
   margin-top: 15px;
   margin-bottom: 5px;
 }
-.speaker p {
+.speaker p #title{
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
+
 .speaker img:hover {
   opacity: .7;
 }
